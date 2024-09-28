@@ -15,6 +15,9 @@ The Nugen Cookbook provides example code and guides for common tasks using the [
 
 Most code examples are in Python, but the concepts apply to any language. For usage examples in other languages (cURL, GO, JavaScript, PHP, and Java), refer to our [API reference](https://docs.nugen.in/api-reference/).
 
+## Guides 
+Guides, examples, tutorials are available in [Guides](/guides/) section 
+
 ## Community Contributions
 
 The Nugen Cookbook is a community-driven resource. We welcome contributions such as:

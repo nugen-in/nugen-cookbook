@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# File to write the README content
+readme_file="README.md"
+
+# Write the header
+echo "# Guides " > $readme_file
+echo "<img src='https://nugen.in/logo.png' alt='Nugen Logo' width='200'/>" > $readme_file 
+echo "" >> $readme_file
+
+# Loop through directories and add links
+for dir in */; do
+    if [ -d "$dir" ]; then
+        dir_name="${dir%/}"
+        echo "- [$dir_name]($dir_name/)" >> $readme_file
+    fi
+done
+
+echo "README.md file has been generated with directory links."
