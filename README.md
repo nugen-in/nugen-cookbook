@@ -1,6 +1,6 @@
 # Nugen Cookbook
 
-![Nugen Logo](/images/nugen-cookbook.svg)
+<img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
 
 Nugen Intelligence develops domain-aligned foundation models and agentic workflows.
 
