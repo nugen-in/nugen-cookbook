@@ -7,7 +7,7 @@
 
 Text embeddings represent text strings as vectors of floating-point numbers. The distance (e.g., cosine similarity) between two embeddings indicates how related two pieces of text are, with smaller distances signifying greater similarity. This is useful in a range of applications like search, recommendation systems, and anomaly detection, especially in Retrieval-Augmented Generation (RAG) architectures.
 
-##**Nugen API Integration**
+## **Nugen API Integration**
 
 Set up the Nugen API Key:
 
@@ -46,7 +46,7 @@ def get_nugen_embeddings(texts, model="nugen-flash-embed", dimensions=123):
         return None
 ```
 
-##Embed a list of documents
+## Embed a list of documents
 
 
 ```python
@@ -91,7 +91,7 @@ else:
 
 The embeddings returned will be numerical vectors representing the documents, which we can use for semantic similarity comparisons.
 
-##Get embeddings from the Nugen API
+## Get embeddings from the Nugen API
 
 
         {
@@ -112,7 +112,7 @@ The embeddings returned will be numerical vectors representing the documents, wh
           }
         }
 
-##Nearest Neighbor Search Using Nugen Embeddings
+## Nearest Neighbor Search Using Nugen Embeddings
 
 Now let's use the Nugen embeddings to conduct a nearest neighbor search for semantic retrieval. Given an example query, we convert it into an embedding and find the most relevant document based on the cosine similarity in the embedding space.
 
