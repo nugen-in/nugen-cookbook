@@ -3,8 +3,9 @@
 
 Domain-aligned foundational models at industry leading speeds and zero-data retention! To learn more, visit [Nugen](https://docs.nugen.in/introduction)
 
+
 ## **Chat-with-PDF using Nugen APIs**
----
+
 
 In this lesson, you will learn how to chat with a PDF using Nugen's embeddings and text completion endpoints. We would go through the following:
 1. Parse the Pdf documents and create chunks 
@@ -12,6 +13,7 @@ In this lesson, you will learn how to chat with a PDF using Nugen's embeddings a
 3. Answer user queries based on contextual search from these embeddings. 
 
 In order to store the embeddings, we will use Qdrant vector database.
+
 
 ### Setup and Configuration
 Importing Libraries and Environment Setup
@@ -365,3 +367,5 @@ By following this structure, the model enables users to upload PDFs, extract mea
 **Conclusion**
 
 By following this cookbook, you now have a complete solution for processing PDF documents, generating embeddings with the Nugen API, storing them in Qdrant, and retrieving relevant information based on user queries. This solution can be expanded or modified for different use cases such as knowledge bases, document search, or other information retrieval applications.
+=======
+
