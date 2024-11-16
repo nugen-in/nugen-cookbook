@@ -1,7 +1,7 @@
 ## **Nugen Intelligence**
 <img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
 
-# **Chat-with-PDF using Nugen APIs**
+# Chat-with-PDF using Nugen APIs
 ---
 
 This documentation explains the implementation of a chat-with-PDF functionality, where PDF documents are embedded into a vector database, and queries are answered based on contextual search from these embeddings. The code uses Nugen APIs for generating embeddings and language model completions, and Qdrant as the vector database to store and retrieve these embeddings.
