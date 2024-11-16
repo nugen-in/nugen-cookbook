@@ -8,6 +8,7 @@ This Colab notebook helps you extract information from Wikipedia, split it into 
 
 
 **Code Overview**
+
 The code is divided into several main parts:
 
 1. Fetching Wikipedia Article Titles
@@ -17,7 +18,8 @@ The code is divided into several main parts:
 5. Saving Processed Data
 
 **1. Setup**
-##Install Required Libraries
+
+## Install Required Libraries
 We'll install the required Python libraries to interact with Wikipedia, split sections, and count tokens.
 
 
@@ -83,7 +85,7 @@ We'll install the required Python libraries to interact with Wikipedia, split se
     Successfully installed h11-0.14.0 httpcore-1.0.5 httpx-0.27.2 jiter-0.5.0 mwclient-0.11.0 mwparserfromhell-0.6.6 openai-1.46.0 tiktoken-0.7.0
 
 
-#**Import Necessary Libraries**
+# **Import Necessary Libraries**
 These libraries help us work with Wikipedia articles, clean and process them, and prepare them for embedding using the Nugen API.
 
 
@@ -99,9 +101,10 @@ import requests
 import tiktoken
 ```
 
-#**2. Access the Nugen API**
+# **2. Access the Nugen API**
 
-##API Key Setup
+## API Key Setup
+
 First, we need to set up the Nugen API to generate embeddings. You’ll need an API key from Nugen, which should be stored as an environment variable. You can replace <your_api_key> with your actual key.
 
 
@@ -119,8 +122,10 @@ headers = {
       and should_run_async(code)
 
 
-#**3. Get Wikipedia Articles**
-##**Choosing Wikipedia Articles**
+# **3. Get Wikipedia Articles**
+
+## **Choosing Wikipedia Articles**
+
 We are going to retrieve articles related to the 2022 Winter Olympics using a Wikipedia category. This section searches for all pages within that category.
 
 
@@ -133,7 +138,8 @@ WIKI_SITE = "en.wikipedia.org"
       and should_run_async(code)
 
 
-##**Extract Article Titles**
+## **Extract Article Titles**
+
 We now gather all the article titles under this category.
 
 
@@ -168,12 +174,13 @@ print(f"Selected {len(sampled_titles)} article titles for processing.")
     Selected 35 article titles for processing.
 
 
-##**How It Works**
+## **How It Works**
+
   1. **titles_from_category Function**: This function takes a Wikipedia category and retrieves all article titles within that category and its subcategories up to a specified depth.
 
   2. **max_depth Parameter:** Controls how deep the function will go into subcategories.
 
-#**4. Chunk Documents**
+# **4. Chunk Documents**
 Now that we have our reference documents, we need to prepare them for search.
 
 For this specific example on Wikipedia articles, we'll:
@@ -265,7 +272,7 @@ def all_subsections_from_title(
 
 This function splits the articles into smaller sections.
 
-##**Clean Up Sections**
+## **Clean Up Sections**
 We clean the sections to remove unnecessary information, such as reference tags (<ref>).
 
 
@@ -336,7 +343,7 @@ for ws in wikipedia_sections[:5]:
     
 
 
-#**5. Handle Text Length (Tokens)**
+# **5. Handle Text Length (Tokens)**
 Embeddings work best when the text is not too long. We count the tokens (words and characters) to ensure that each section is short enough.
 
 
@@ -413,8 +420,8 @@ print(f"{len(wikipedia_sections)} Wikipedia sections split into {len(wikipedia_s
     1752 Wikipedia sections split into 2062 strings.
 
 
-#**6. Generate Embeddings**
-##**Prepare Text for Embedding**
+# **6. Generate Embeddings**
+## **Prepare Text for Embedding**
 After splitting the sections, we convert them into numerical values (embeddings). These embeddings help computers understand the content.
 
 
@@ -483,7 +490,7 @@ for batch_start in range(0, len(wikipedia_strings), BATCH_SIZE):
     Processing batch 2000 to 2099
 
 
-#**7. Save the Results**
+# **7. Save the Results**
 
 
 ```python

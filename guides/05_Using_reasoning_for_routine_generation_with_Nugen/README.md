@@ -1,11 +1,11 @@
 ## **Nugen Intelligence**
 <img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
 
-# **Using Reasoning for Routine Generation with Nugen API **
+# **Using Reasoning for Routine Generation with Nugen API**
  
 This code demonstrates how to generate programmatically executable routines from help center articles using the Nugen API. The goal is to transform external-facing help center content into internal-facing routines that can be used by a large language model (LLM) to handle customer service tasks effectively.
 
-##**Importing Necessary Libraries**
+## **Importing Necessary Libraries**
 
 
 ```python
@@ -26,7 +26,7 @@ MODEL = "nugen-flash-instruct"
 4. ThreadPoolExecutor: A tool to run multiple tasks concurrently, speeding up processing.
 5. csv: A module to read and write CSV files.
 
-##**Setting Up the Nugen API**
+## **Setting Up the Nugen API**
 
 
 ```python
@@ -66,7 +66,7 @@ client = NugenAPIClient(base_url=url_api_server, api_key=api_key)
 
 **headers:** Includes the authorization token for API access and specifies that we're sending JSON data.
 
-##**Defining the Routine Generation Function**
+## **Defining the Routine Generation Function**
 
 
 ```python
@@ -139,7 +139,7 @@ def generate_routine(policy):
   2. response: Receives the response from the API and extracts the generated routine from it.
   3. Exception handling: Catches any errors that occur during the request and prints an error message.
 
-##**Processing Articles Concurrently**
+## **Processing Articles Concurrently**
 
 
 
