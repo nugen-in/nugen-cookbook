@@ -1,7 +1,7 @@
 ## **Nugen Intelligence**
 <img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
 
-# **Using Reasoning for Routine Generation with Nugen API **
+# **Using Reasoning for Routine Generation with Nugen API**
  
 This code demonstrates how to generate programmatically executable routines from help center articles using the Nugen API. The goal is to transform external-facing help center content into internal-facing routines that can be used by a large language model (LLM) to handle customer service tasks effectively.
 
