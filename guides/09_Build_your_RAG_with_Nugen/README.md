@@ -364,8 +364,5 @@ Finally, we can put everything together into an end-to-end flow that processes a
 By following this structure, the model enables users to upload PDFs, extract meaningful information from them, and ask questions that are answered based on the embedded content in the document. All of this is powered by Nugen’s APIs and the Qdrant vector database for high-quality search and retrieval.
 
 
-**Conclusion**
 
-By following this cookbook, you now have a complete solution for processing PDF documents, generating embeddings with the Nugen API, storing them in Qdrant, and retrieving relevant information based on user queries. This solution can be expanded or modified for different use cases such as knowledge bases, document search, or other information retrieval applications.
-=======
 
