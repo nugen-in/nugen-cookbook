@@ -61,7 +61,7 @@ By leveraging this API key, you can seamlessly integrate Nugen’s cutting-edge 
 ```python
 
 NUGEN_API_KEY = <enter your api key> # Replace with your actual API key from Nugen
-LLM_API_URL = "https://api.nugen.cloud/inference"
+LLM_API_URL = "https://api.nugen.in/inference"
 model_llm = "nugen-flash-instruct"
 model_embed = "nugen-flash-embed"
 EMBED_DIMENSION = 768
