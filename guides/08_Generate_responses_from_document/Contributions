@@ -1,0 +1,106 @@
+#### PDF Querying Application with Nugen API Integration
+
+This Python application allows you to extract and process text from PDF documents, generate embeddings, and answer queries based on the content. It leverages the Nugen API for embedding generation and response completion. The code is optimized for security, error handling, logging, and improved query handling.
+
+Features
+Secure API Key Handling: The Nugen API key is securely loaded from environment variables to avoid hardcoding sensitive information.
+
+Text Sanitization: Text extracted from PDFs is cleaned to remove non-printable characters, ensuring better input quality for the embedding models.
+
+Efficient Chunking: The text is split into smaller chunks for better embedding processing and query relevance.
+
+Enhanced Prompt Quality: The prompt passed to the Nugen API is structured to improve the quality of responses.
+
+Q&A Logging: Every query and its corresponding answer are logged with timestamps for traceability and auditing.
+
+Error Handling: Checks and balances are in place to ensure that failed embedding retrievals or query generations don’t silently fail.
+
+## Explanation of Contributions
+
+### API Key Security 
+
+Replaced the hardcoded API key with os.getenv("NUGEN_API_KEY") for secure loading from the environment. This is safer when deploying or sharing code.
+
+### Text Sanitization 
+
+Implemented the sanitize_text() function to remove non-printable or control characters from the extracted PDF text before processing it for embeddings. This ensures that we don't feed any problematic or unclean data into the embedding model.
+
+### Error Handling for Embeddings 
+
+Added error handling in the process_document() function to check if embeddings were successfully retrieved for each chunk, ensuring the program doesn't silently fail.
+
+### Prompt Engineering 
+
+The prompt passed to the get_nugen_completion() function is more structured and provides better context for the model. This helps in getting more relevant and accurate responses.
+
+### Q&A Logging 
+
+Introduced logging functionality (log_qa()) to record the questions and their corresponding answers in a timestamped log file (qna_log.txt). This provides traceability and auditing for the interactions.
+
+### Code Overview
+
+## Main Functions:
+
+
+# sanitize_text(text)
+
+Removes non-printable characters from the extracted PDF text to ensure clean input for embeddings.
+
+# get_nugen_embeddings(texts, model="nugen-flash-embed", dimensions=768)
+
+Fetches embeddings for a list of texts using the Nugen API. It handles the embedding request and returns a list of embeddings.
+
+# extract_text_from_pdf(file_path)
+
+Extracts raw text from a PDF file using the PyPDF2 library.
+
+# chunk_text(text, chunk_size)
+
+Splits the extracted text into smaller chunks to make it manageable for processing.
+
+# process_document(file_path, chunk_size=50)
+
+Extracts and processes the document, returning the text chunks and their corresponding embeddings.
+
+# find_relevant_chunk(query, chunks, doc_embeddings)
+
+Finds the most relevant chunk from the document based on the provided query by calculating cosine similarities between query embeddings and document embeddings.
+
+# get_nugen_completion(prompt, model="nugen-flash-instruct", max_tokens=400, temperature=1.0)
+
+Fetches a completion response from the Nugen API based on a given prompt.
+
+# log_qa(question, answer)
+
+Logs each question and its answer with a timestamp to a file (qna_log.txt).
+
+# answer_query_from_pdf(pdf_file, query)
+
+The main function that combines all other functions. It processes the PDF, generates embeddings, finds the relevant chunk for a query, and then generates an answer.
+
+
+![alt text](image.png)
+
+Previously, the script was limited to a single hardcoded query, which meant you'd have to edit the code every time you wanted to ask a new question. Now, it supports an interactive loop that allows users to ask unlimited questions about the PDF in real-time—making it much more flexible and user-friendly.
+
+
+### Contribution Summary
+
+## Enhanced PDF Querying with Security, Logging, and Usability Improvements
+
+This contribution significantly improves the existing PDF querying pipeline using Nugen APIs by addressing security, usability, reliability, and developer ergonomics. It includes better API key handling, enhanced prompt structuring, cleaner input preprocessing, interactive querying, and detailed Q&A logging. These additions make the cookbook more production-ready and practically useful for developers looking to build secure and user-friendly PDF-based RAG systems
+
+# why this matters??
+
+
+Safer for use in real-world environments where API keys must be secured
+
+Cleaner by removing text artifacts that might degrade embedding performance
+
+Smarter by guiding the LLM with contextual prompts
+
+More Reliable via error handling
+
+Auditable through persistent Q&A logs
+
+More Flexible with unlimited interactive querying—no code change needed per question
