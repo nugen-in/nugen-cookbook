@@ -1,0 +1,42 @@
+
+### Secure and Enhanced PDF RAG Pipeline with Logging, Metadata, Feedback Loop
+This notebook implements a secure, efficient, and production-grade PDF-based Retrieval-Augmented Generation (RAG) system using the Nugen API and Qdrant. It includes modular enhancements for security, chunking strategy, logging, metadata tracking, and feedback loops—all essential for a scalable and auditable AI pipeline.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+### Pipeline FLow
+1.Load PDF & Validate Integrity
+Downloads and verifies file using SHA256 checksum.
+
+2.Chunk PDF Semantically
+Uses paragraph-based chunking with overlap for better context.
+
+3.Create & Store Embeddings
+Embeddings generated via Nugen API, stored in Qdrant with rich metadata.
+
+4.RAG Retrieval & Query
+Sanitized user query used to fetch top relevant chunks using user/thread filters.
+
+5.LLM Response Generation
+Structured prompt with retrieved context generates a final answer.
+
+6.Audit & Feedback Logging
+Logs query, token usage, and system responses for feedback analysis.
+
+
+
+## **Nugen Intelligence**
+<img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
+
+Domain-aligned foundational models at industry leading speeds and zero-data retention! To learn more, visit [Nugen](https://docs.nugen.in/introduction)
+
+
+## **Chat-with-PDF using Nugen APIs**
+
+
+In this lesson, you will learn how to chat with a PDF using Nugen's embeddings and text completion endpoints. We would go through the following:
+1. Parse the Pdf documents and create chunks 
+2. Create chunk embeddings and index it in vector database
+3. Answer user queries based on contextual search from these embeddings. 
