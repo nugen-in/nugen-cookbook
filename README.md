@@ -17,38 +17,38 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 ## Table of Recipes
 
 ### Getting Started
-| Title | Description |
-|-------|-------------|
-| [Getting Started with Nugen](guides/getting_started/guide.ipynb) | Learn the basics of using Nugen API |
-| [Understanding Nugen Models](guides/understanding_nugen/guide.ipynb) | Explore the different Nugen models and their capabilities |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Getting Started with Nugen](guides/getting_started/guide.ipynb) | Learn the basics of using Nugen API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/getting_started/guide.ipynb) |
+| [Understanding Nugen Models](guides/understanding_nugen/guide.ipynb) | Explore the different Nugen models and their capabilities | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/understanding_nugen/guide.ipynb) |
 
 ### Framework Integrations
-| Title | Description |
-|-------|-------------|
-| [Nugen with LlamaIndex](guides/nugen_api_with_llamaindex/guide.ipynb) | Integrate Nugen API with LlamaIndex framework |
-| [Nugen with LangChain](guides/nugen_api_with_langchain/guide.ipynb) | Integrate Nugen API with LangChain framework |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Nugen with LlamaIndex](guides/nugen_api_with_llamaindex/guide.ipynb) | Integrate Nugen API with LlamaIndex framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/nugen_api_with_llamaindex/guide.ipynb) |
+| [Nugen with LangChain](guides/nugen_api_with_langchain/guide.ipynb) | Integrate Nugen API with LangChain framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/nugen_api_with_langchain/guide.ipynb) |
 
 ### Advanced Capabilities
-| Title | Description |
-|-------|-------------|
-| [Using Reasoning for Routine Generation](guides/using_reasoning_for_routine_generation_with_nugen/guide.ipynb) | Leverage Nugen's reasoning capabilities for routine generation |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Using Reasoning for Routine Generation](guides/using_reasoning_for_routine_generation_with_nugen/guide.ipynb) | Leverage Nugen's reasoning capabilities for routine generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/using_reasoning_for_routine_generation_with_nugen/guide.ipynb) |
 
 ### Embeddings and Search
-| Title | Description |
-|-------|-------------|
-| [How to Create Embeddings](guides/create_embeddings_with_nugen/guide.ipynb) | Learn how to create embeddings using Nugen API |
-| [Embedding Wikipedia Articles for Search](guides/embedding_wikipedia_articles_for_search_with_nugen/guide.ipynb) | Build a semantic search system with Wikipedia articles |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [How to Create Embeddings](guides/create_embeddings_with_nugen/guide.ipynb) | Learn how to create embeddings using Nugen API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/create_embeddings_with_nugen/guide.ipynb) |
+| [Embedding Wikipedia Articles for Search](guides/embedding_wikipedia_articles_for_search_with_nugen/guide.ipynb) | Build a semantic search system with Wikipedia articles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/embedding_wikipedia_articles_for_search_with_nugen/guide.ipynb) |
 
 ### Retrieval Augmented Generation (RAG)
-| Title | Description |
-|-------|-------------|
-| [Generate Responses from Documents](guides/generate_responses_from_document/guide.ipynb) | Extract information and generate responses from documents |
-| [Build Your RAG System](guides/build_your_RAG_with_nugen/guide.ipynb) | Implement a complete RAG system with Nugen |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Generate Responses from Documents](guides/generate_responses_from_document/guide.ipynb) | Extract information and generate responses from documents | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/generate_responses_from_document/guide.ipynb) |
+| [Build Your RAG System](guides/build_your_RAG_with_nugen/guide.ipynb) | Implement a complete RAG system with Nugen | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_RAG_with_nugen/guide.ipynb) |
 
 ### Agentic Workflows
-| Title | Description |
-|-------|-------------|
-| [Build Your Agents](guides/build_your_agents/guide.ipynb) | Create autonomous agents using Nugen's agentic capabilities |
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Build Your Agents](guides/build_your_agents/guide.ipynb) | Create autonomous agents using Nugen's agentic capabilities | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_agents/guide.ipynb) |
 
 ## Explore Further
 
@@ -76,23 +76,3 @@ Your contributions help make this resource valuable for the entire developer com
 
 
 
-<!-- 
-Google Collab Links: 
-
-1. https://colab.research.google.com/drive/1K5-JP51ZE0EjTlOoGeIBK6HAmcSXFh-G?usp=sharing -- 01_getting_started_with_Nugen.ipynb
-
-2. https://colab.research.google.com/drive/1otsAM1EffIq5dVzp1LtobZ7dtkpEYE56?usp=sharing -- 02_understanding_Nugen_models.ipynb
-
-3. https://colab.research.google.com/drive/1bO-N_WUQfICHowJpawEG9hqfP_1havkD?usp=sharing -- 03_nugen_with_llamaIndex.ipynb
-
-4. https://colab.research.google.com/drive/1HBA0RG46R6spi4IN6Gw4PN9RjlPcV_5T?usp=sharing -- 04_nugen_with_langchain.ipynb
-
-5. https://colab.research.google.com/drive/1hIj6YOld9L4LTG-QVWpkdkIH4jSQ9Ayj?usp=sharing -- 05_Using_reasoning_for_routine_generation_with_Nugen.ipynb
-
-6. https://colab.research.google.com/drive/14k4hzA9vb_LrBzqNcVFQh6A9LTF6TWFg?usp=sharing -- 06_how_to_create_embeddings_with_Nugen.ipynb
-
-7. https://colab.research.google.com/drive/14h1OsADNljlFC1KCUuEk7Ryx-WBK8-N5?usp=sharing -- 07_Embedding_Wikipedia_articles_for_search_with_Nugen.ipynb
-
-8. https://colab.research.google.com/drive/1WCI0zk4KKNUY657H7WPEpQbvXm4sh2AT?usp=sharing -- 08_GenerateResponseFromDocument.ipynb
-
-9. https://colab.research.google.com/drive/1Dep4K2jUKJZrfNEXSzs8weseav34NdyO?usp=sharing -- 09_build_your_RAG_with_Nugen.ipynb -->
