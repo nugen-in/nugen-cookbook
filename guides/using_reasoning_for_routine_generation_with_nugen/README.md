@@ -234,6 +234,6 @@ display_formatted_dataframe(df)
 1. **Creating a DataFrame**: Converts the results into a Pandas DataFrame for easier manipulation and viewing.
 2. **Displaying the Data:** Defines a function display_formatted_dataframe(df) to format and display the DataFrame in a readable HTML format.
 
-#**Summary**
+# **Summary**
 
 This code converts help center articles into internal-facing routines using the Nugen API. It processes multiple articles concurrently to improve efficiency and displays the results in an easily readable format. By following the steps outlined in this documentation, you can adapt and use the code for your own routine generation needs.
