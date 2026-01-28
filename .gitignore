@@ -140,3 +140,4 @@ examples/fine-tuned_qa/local_cache/*
 
 # PyCharm files
 .idea/
+guides/07_Embedding_Wikipedia_articles_for_search_with_Nugen/winter_olympics_2022.csv
