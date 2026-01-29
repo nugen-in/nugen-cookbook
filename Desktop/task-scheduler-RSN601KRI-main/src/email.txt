@@ -1,0 +1,5 @@
+To: roshni06k2004@gmail.com
+Subject: Verify subscription to Task Planner
+Message: how ar you
+<p>Click below to verify your email:</p><a id='verification-link' href='http://localhost:8000/verify.php?email=roshni06k2004%40gmail.com&code=123666'>Verify Subscription</a>
+
