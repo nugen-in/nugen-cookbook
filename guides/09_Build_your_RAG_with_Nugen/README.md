@@ -354,3 +354,14 @@ By following this structure, the model enables users to upload PDFs, extract mea
 
 
 
+
+## 🔄 Notebook Improvements
+
+The `09_build_your_RAG_with_Nugen.ipynb` notebook has been updated with the following improvements:
+
+1.  **Qdrant API Compatibility**: Updated code to use `query_points` instead of the deprecated `search` method, ensuring compatibility with modern Qdrant clients.
+2.  **Robust Error Handling**: Added safety checks for API responses associated with the Nugen LLM, preventing crashes when the model returns empty results.
+3.  **Enhanced Security**: Upgraded file integrity checks from MD5 to SHA256.
+4.  **Resiliency**: Added `json` import and proper timeout handling for API requests.
+
+Run the notebook to see these changes in action!
