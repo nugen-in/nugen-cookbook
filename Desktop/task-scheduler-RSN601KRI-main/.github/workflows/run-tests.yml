@@ -1,0 +1,19 @@
+name: Run PHP and Playwright Tests with Mailpit
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout Candidate's Code
+        uses: actions/checkout@v4
+      
+      - name: Run tests
+        uses: docker://ghcr.io/rtlearn/gh-classroom
+
+      - name: Cleanup
+        if: ${{ always() }}
+        uses: rtCamp/action-cleanup@master

@@ -4,18 +4,20 @@
 
 # **Generating Embeddings with Nugen API**
 
-This Colab notebook helps you extract information from Wikipedia, split it into smaller sections, and generate numerical embeddings using the Nugen API. Embeddings are useful in many applications like search engines and recommendation systems.
+This guide demonstrates how to extract Wikipedia articles by category, clean and chunk their content, and generate semantic embeddings using the Nugen Embeddings API. These embeddings can be used for semantic search, retrieval, and recommendation systems.
 
+## 📘 Notebook Overview
 
-**Code Overview**
+**Notebook path:**  
+`guides/07_Embedding_Wikipedia_articles_for_search_with_Nugen.ipynb`
 
-The code is divided into several main parts:
+This notebook covers:
 
-1. Fetching Wikipedia Article Titles
-2. Processing and Cleaning Wikipedia Articles
-3. Splitting Text for API Calls
-4. Making API Calls to Nugen
-5. Saving Processed Data
+1. Retrieving Wikipedia articles using category traversal
+2. Cleaning and structuring article sections
+3. Token-aware chunking for embedding models
+4. Generating embeddings using the Nugen Embeddings API
+5. Exporting embeddings for downstream semantic search tasks
 
 **1. Setup**
 
@@ -512,3 +514,11 @@ print(f"Embeddings saved to {SAVE_PATH}")
 ```python
 
 ```
+
+## Improvements Added
+
+- Improved documentation clarity and narrative flow across the notebook
+- Added safeguards for empty, short, or malformed Wikipedia sections
+- Enhanced chunking logic to better respect semantic boundaries
+- Clarified secure API usage using environment variables
+- Improved readability and maintainability with structured comments
