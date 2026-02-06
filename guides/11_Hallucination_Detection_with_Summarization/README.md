@@ -1,8 +1,9 @@
-# Hallucination Detection with Summarization Agent
+## **Nugen Intelligence**
+<img src="https://nugen.in/logo.png" alt="Nugen Logo" width="200"/>
+
+# **Hallucination Detection with Summarization**
 
 Detect hallucinations in AI-generated summaries using Nugen's domain-aligned models.
-
-## Overview
 
 This notebook demonstrates a two-step pipeline:
 1. **Summarize** - Generate a concise summary of domain-specific text
