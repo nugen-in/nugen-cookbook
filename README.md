@@ -50,6 +50,12 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 |-------|-------------|---------------|
 | [Build Your Agents](guides/build_your_agents/guide.ipynb) | Create autonomous agents using Nugen's agentic capabilities | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_agents/guide.ipynb) |
 
+### Vision Alignment
+
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Vision Alignment with Nugen API](guides/Vision_alignment/guide.ipynb) | Create a Vision Alignment Model using your own image dataset for domain-specific | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/Vision_alignment/guide.ipynb) |
+
 ## Explore Further
 
 To learn more about Nugen and its capabilities:
