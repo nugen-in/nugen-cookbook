@@ -1,0 +1,20 @@
+{
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to improve their performance on a specific task through experience."
+}
+{
+    "question": "What are the three main types of machine learning?",
+    "answer": "The three main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning."
+}
+{
+    "question": "How is machine learning applied in healthcare?",
+    "answer": "In healthcare, machine learning is used for disease diagnosis and drug discovery."
+}
+{
+    "question": "What challenges does machine learning face?",
+    "answer": "Machine learning faces challenges including data quality issues, interpretability concerns, and ethical considerations around bias and fairness."
+}
+{
+    "question": "What is the future direction of machine learning research?",
+    "answer": "Future research focuses on developing more robust, transparent, and ethical AI systems, with emerging areas like transfer learning and few-shot learning."
+}
