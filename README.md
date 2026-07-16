@@ -49,7 +49,7 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
-| [Alignment with the Nugen API](guides/alignment_with_nugen_api/guide.ipynb) | Build an alignment model using the Nugen API through dataset upload, benchmark generation, benchmark refinement, and alignment creation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/alignment_with_nugen_api/guide.ipynb) |
+| [Alignment with the Nugen API](guides/alignment_with_nugen_api/guide.ipynb) | Build a domain-specific aligned model using the Nugen API through dataset upload, benchmark generation, benchmark editing, and aligning the model to your domain. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/alignment_with_nugen_api/guide.ipynb) |
 
 ### Agentic Workflows
 | Title | Description | Open in Colab |
