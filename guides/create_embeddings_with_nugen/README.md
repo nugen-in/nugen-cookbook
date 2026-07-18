@@ -28,7 +28,7 @@ headers = {
 }
 
 # Example texts
-def get_nugen_embeddings(texts, model="nugen-flash-embed", dimensions=123):
+def get_nugen_embeddings(texts, model="qwen3-embedding-8b", dimensions=123):
     """Fetch embeddings for a list of texts from Nugen API."""
     data = {
         "input": texts,
@@ -61,7 +61,7 @@ documents = [
 ]
 
 # Get document embeddings from Nugen API
-doc_embds = get_nugen_embeddings(documents, model="nugen-flash-embed", dimensions=123)
+doc_embds = get_nugen_embeddings(documents, model="qwen3-embedding-8b", dimensions=123)
 if doc_embds:
     for i, embd in enumerate(doc_embds):
         print(f"Embedding for document {i + 1}: {embd}")
@@ -72,7 +72,7 @@ else:
 query = "When is Apple's conference call scheduled?"
 
 # Get the embedding for the query
-query_embd = get_nugen_embeddings([query], model="nugen-flash-embed", dimensions=123)
+query_embd = get_nugen_embeddings([query], model="qwen3-embedding-8b", dimensions=123)
 if query_embd:
     query_embd = query_embd[0]
     print("Embedding for query:", query_embd)
@@ -106,7 +106,7 @@ The embeddings returned will be numerical vectors representing the documents, wh
               "index": 1
             }
           ],
-          "model": "nugen-flash-embed",
+          "model": "qwen3-embedding-8b",
           "usage": {
             "total_tokens": 10
           }
@@ -123,7 +123,7 @@ Embed the query and compute similarities:
 query = "When is Apple's conference call scheduled?"
 
 # Get the embedding for the query
-query_embd = get_nugen_embeddings([query], model="nugen-flash-embed", dimensions=123)
+query_embd = get_nugen_embeddings([query], model="qwen3-embedding-8b", dimensions=123)
 if query_embd:
     query_embd = query_embd[0]
 else:
