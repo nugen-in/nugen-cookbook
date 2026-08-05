@@ -57,9 +57,10 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 | [Build Your Agents](guides/build_your_agents/guide.ipynb) | Create autonomous agents using Nugen's agentic capabilities | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_agents/guide.ipynb) |
 
 ### Inference Workflows
+
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
-| [Run Inference with Nugen API](guides/run_inference_with_nugen_api/guide.ipynb) | Learn how to run inference using a aligned model with the Nugen Inference API. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/run_inference_with_nugen_api/guide.ipynb) |
+| [Run Inference with Nugen API](guides/inference_with_nugen_api/guide.ipynb) | Learn how to run inference using an aligned model with the Nugen Inference API. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guide.ipynb) |
 
 ## Explore Further
 
