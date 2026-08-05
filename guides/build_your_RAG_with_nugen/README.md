@@ -50,8 +50,8 @@ By leveraging this API key, you can seamlessly integrate Nugen’s cutting-edge 
 
 NUGEN_API_KEY = <enter your api key> # Replace with your actual API key from Nugen
 LLM_API_URL = "https://api.nugen.cloud/inference"
-model_llm = "nugen-flash-instruct"
-model_embed = "nugen-flash-embed"
+model_llm = "qwen-v2p5-0p5b-instruct"
+model_embed = "qwen3-embedding-8b"
 EMBED_DIMENSION = 768
 EMBED_CHUNK_SIZE = int(EMBED_DIMENSION * 0.95)
 EMBED_CHUNK_OVERLAP = int(EMBED_CHUNK_SIZE * 0.10)
@@ -75,8 +75,8 @@ This variable determines which provider's API will be used. In this case, it is 
 *   **LLM_API_URL:** The base url for Nugen’s large language model inference API.
 *   **model_llm and model_embed:** These specify which models to use for generating instruction-based completion and text embeddings, respectively.
       
-        1. model_llm: nugen-flash-instruct (used for answering user queries).
-        2. model_embed: nugen-flash-embed (used for generating embeddings from text).
+        1. model_llm: qwen-v2p5-0p5b-instruct (used for answering user queries).
+        2. model_embed: qwen3-embedding-8b (used for generating embeddings from text).
     
 ### Embedding Parameters:
 
