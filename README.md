@@ -63,7 +63,7 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 ### Inference Workflows
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
-| [Run Inference with Nugen API](guides/inference_with_nugen_api/guides.ipynb) | Learn how to run inference using a aligned model with the Nugen Inference API. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guides.ipynb) |
+| [Run Inference with Nugen API](guides/inference_with_nugen_api/guide.ipynb) | Learn how to run inference using a aligned model with the Nugen Inference API. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guide.ipynb) |
 ### Vision Alignment
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
