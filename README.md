@@ -66,6 +66,7 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 |-------|-------------|---------------|
 | [Run Inference with Nugen API](guides/inference_with_nugen_api/guide.ipynb) | Learn how to run inference using an aligned model with the Nugen Inference API. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guide.ipynb) |
 
+
 ## Explore Further
 
 To learn more about Nugen and its capabilities:
