@@ -45,16 +45,29 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 | [Generate Responses from Documents](guides/generate_responses_from_document/guide.ipynb) | Extract information and generate responses from documents | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/generate_responses_from_document/guide.ipynb) |
 | [Build Your RAG System](guides/build_your_RAG_with_nugen/guide.ipynb) | Implement a complete RAG system with Nugen | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_RAG_with_nugen/guide.ipynb) |
 
+### Alignment Workflows
+
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Alignment with the Nugen API](guides/alignment_with_nugen_api/guide.ipynb) | Build a domain-specific aligned model using the Nugen API through dataset upload, benchmark generation, benchmark editing, and aligning the model to your domain. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/alignment_with_nugen_api/guide.ipynb) |
+
 ### Agentic Workflows
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
 | [Build Your Agents](guides/build_your_agents/guide.ipynb) | Create autonomous agents using Nugen's agentic capabilities | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_your_agents/guide.ipynb) |
 
-### Inference Workflows
-
+### Build an Application Using Your Aligned Model.
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
-| [Run Inference with Nugen API](guides/inference_with_nugen_api/guide.ipynb) | Learn how to run inference using an aligned model with the Nugen Inference API. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guide.ipynb) |
+| [Build an Application Using Your Aligned Model](guides/build_with_nugen_api/guide.ipynb) | Follow the steps to use your aligned model with the Nugen Inference API to build your own application | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/build_with_nugen_api/guide.ipynb) |
+### Inference Workflows
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Run Inference with Nugen API](guides/inference_with_nugen_api/guides.ipynb) | Learn how to run inference using a aligned model with the Nugen Inference API. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/inference_with_nugen_api/guides.ipynb) |
+### Vision Alignment
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Vision Alignment with Nugen API](guides/Vision_alignment/guide.ipynb) | Create a Vision Alignment Model using your own image dataset for domain-specific | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/Vision_alignment/guide.ipynb) |
 
 ## Explore Further
 
@@ -78,6 +91,7 @@ Before contributing:
 3. Review our [contribution guidelines](/CONTRIBUTING.md) for new content submissions.
 
 Your contributions help make this resource valuable for the entire developer community working with Nugen's domain-aligned foundation models and agentic workflows.
+
 
 
 

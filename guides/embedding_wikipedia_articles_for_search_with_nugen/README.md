@@ -436,7 +436,7 @@ print(f"{len(wikipedia_sections)} Wikipedia sections split into {len(wikipedia_s
 
 # Fetch embeddings from Nugen API
 BATCH_SIZE = 100
-EMBEDDING_MODEL = "nugen-flash-embed"
+EMBEDDING_MODEL = "qwen3-embedding-8b"
 embeddings = []
 
 for batch_start in range(0, len(wikipedia_strings), BATCH_SIZE):
