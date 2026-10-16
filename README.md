@@ -28,6 +28,12 @@ To get the most out of these recipes, we recommend starting with our [Getting St
 | [Nugen with LlamaIndex](guides/nugen_api_with_llamaindex/guide.ipynb) | Integrate Nugen API with LlamaIndex framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/nugen_api_with_llamaindex/guide.ipynb) |
 | [Nugen with LangChain](guides/nugen_api_with_langchain/guide.ipynb) | Integrate Nugen API with LangChain framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/nugen_api_with_langchain/guide.ipynb) |
 
+### Multi-Model Routing
+
+| Title | Description | Open in Colab |
+|-------|-------------|---------------|
+| [Multi-Model AI Routing with Nugen](guides/multi_model_ai_routing/guide.ipynb) | Route prompts to configured Nugen models using task-based rules, with API error handling and local routing tests. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nugen-in/nugen-cookbook/blob/main/guides/multi_model_ai_routing/guide.ipynb) |
+
 ### Advanced Capabilities
 | Title | Description | Open in Colab |
 |-------|-------------|---------------|
