@@ -1,20 +1,102 @@
-{
-    "question": "What is machine learning?",
-    "answer": "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms and statistical models that enable computers to improve their performance on a specific task through experience."
-}
-{
-    "question": "What are the three main types of machine learning?",
-    "answer": "The three main types of machine learning are supervised learning, unsupervised learning, and reinforcement learning."
-}
-{
-    "question": "How is machine learning applied in healthcare?",
-    "answer": "In healthcare, machine learning is used for disease diagnosis and drug discovery."
-}
-{
-    "question": "What challenges does machine learning face?",
-    "answer": "Machine learning faces challenges including data quality issues, interpretability concerns, and ethical considerations around bias and fairness."
-}
-{
-    "question": "What is the future direction of machine learning research?",
-    "answer": "Future research focuses on developing more robust, transparent, and ethical AI systems, with emerging areas like transfer learning and few-shot learning."
-}
+[
+  {
+    "sample_num": 1,
+    "instruction": "What is the name of the sixteen-year-old girl who lives with her grandmother near the town market?",
+    "response": "Meera."
+  },
+  {
+    "sample_num": 2,
+    "instruction": "What sign did Meera see on the old building hidden behind a row of trees?",
+    "response": "“Public Library.”"
+  },
+  {
+    "sample_num": 3,
+    "instruction": "What did the old building have when Meera pushed the wooden door gently?",
+    "response": "Broken windows, a wooden door, and a faded sign that read “Public Library.”"
+  },
+  {
+    "sample_num": 4,
+    "instruction": "What did the elderly man behind the desk introduce himself as?",
+    "response": "Mr. Sharma, the librarian."
+  },
+  {
+    "sample_num": 5,
+    "instruction": "According to Mr. Sharma, why had most people stopped visiting the old library?",
+    "response": "After a modern library opened across town, most people stopped visiting."
+  },
+  {
+    "sample_num": 6,
+    "instruction": "What color was the book Meera discovered that was different from the other books?",
+    "response": "A dark blue cover."
+  },
+  {
+    "sample_num": 7,
+    "instruction": "What did Meera find on the first page when she opened the dark blue book?",
+    "response": "A handwritten note."
+  },
+  {
+    "sample_num": 8,
+    "instruction": "What message did the handwritten note say?",
+    "response": "“Knowledge is the greatest treasure, but only those who ask the right questions will find it.”"
+  },
+  {
+    "sample_num": 9,
+    "instruction": "What small drawing was beneath the message in the handwritten note?",
+    "response": "A small drawing of a key."
+  },
+  {
+    "sample_num": 10,
+    "instruction": "What did Mr. Sharma say the library’s founder had supposedly hidden?",
+    "response": "A special collection of books somewhere in the building."
+  },
+  {
+    "sample_num": 11,
+    "instruction": "How did Meera figure out the location of a clue during one evening in the library?",
+    "response": "She noticed several history books arranged in an unusual order whose first letters formed the word “CLOCK.”"
+  },
+  {
+    "sample_num": 12,
+    "instruction": "What object did Meera find in the corner after noticing the word “CLOCK”?",
+    "response": "An old grandfather clock."
+  },
+  {
+    "sample_num": 13,
+    "instruction": "What did Meera discover behind the grandfather clock?",
+    "response": "A small wooden panel."
+  },
+  {
+    "sample_num": 14,
+    "instruction": "What did Meera find after removing the wooden panel behind the grandfather clock?",
+    "response": "A metal key."
+  },
+  {
+    "sample_num": 15,
+    "instruction": "What did the metal key open?",
+    "response": "A locked cabinet beneath the librarian's desk."
+  },
+  {
+    "sample_num": 16,
+    "instruction": "What was inside the locked cabinet?",
+    "response": "An old map showing a hidden staircase behind the tallest bookshelf."
+  },
+  {
+    "sample_num": 17,
+    "instruction": "What did Meera and Mr. Sharma discover after moving the tallest bookshelf carefully?",
+    "response": "A narrow staircase leading to a small underground room."
+  },
+  {
+    "sample_num": 18,
+    "instruction": "What kinds of items were in the underground room besides books?",
+    "response": "It contained hundreds of books, including rare scientific discoveries, historical records, handwritten stories, and journals written by people who had lived in the town centuries earlier."
+  },
+  {
+    "sample_num": 19,
+    "instruction": "What did the founder’s letter explain about who the collection was meant to be shared with?",
+    "response": "It was meant to be shared with everyone, especially children who could not afford to buy books."
+  },
+  {
+    "sample_num": 20,
+    "instruction": "Long generation question: Describe the full sequence of discoveries and actions from Meera first noticing the hidden library building to the library becoming popular again, including the key clue word, the location of the key, what the key opened, what the map revealed, and what the founder’s letter said.",
+    "response": "Meera noticed the hidden “Public Library” building behind a row of trees, entered to find Mr. Sharma, and discovered a dark blue book with a handwritten note and a key drawing. After investigating for days, she found history books arranged so their first letters formed “CLOCK,” then located an old grandfather clock in the corner. Behind the clock was a small wooden panel; removing it revealed a metal key. The key opened a locked cabinet beneath Mr. Sharma’s desk, where an old map showed a hidden staircase behind the tallest bookshelf. Moving the shelf revealed a narrow staircase to an underground room with hundreds of books, and the founder’s letter explained the collection was meant to be shared with everyone, especially children who could not afford books. Meera restored the collection with Mr. Sharma, invited classmates, contacted volunteers, and local residents donated books, furniture, and money; within a few months the old library became popular again, with children gathering every afternoon to read, study, and discuss."
+  }
+]
