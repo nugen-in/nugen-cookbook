@@ -2,121 +2,101 @@
   {
     "sample_num": 1,
     "instruction": "What is the name of the sixteen-year-old girl who lives with her grandmother near the town market?",
-    "response": "Meera.",
-    "image_url": null
+    "response": "Meera."
   },
   {
     "sample_num": 2,
-    "instruction": "What is the name of the librarian who introduces himself when Meera enters the old building?",
-    "response": "Mr. Sharma.",
-    "image_url": null
+    "instruction": "What sign did Meera see on the old building hidden behind a row of trees?",
+    "response": "“Public Library.”"
   },
   {
     "sample_num": 3,
-    "instruction": "What does the faded sign on the old building say?",
-    "response": "“Public Library.”",
-    "image_url": null
+    "instruction": "What did the old building have when Meera pushed the wooden door gently?",
+    "response": "Broken windows, a wooden door, and a faded sign that read “Public Library.”"
   },
   {
     "sample_num": 4,
-    "instruction": "What two physical features of the old building are mentioned when Meera notices it (besides the sign)?",
-    "response": "Broken windows and a wooden door.",
-    "image_url": null
+    "instruction": "What did the elderly man behind the desk introduce himself as?",
+    "response": "Mr. Sharma, the librarian."
   },
   {
     "sample_num": 5,
-    "instruction": "What does sunlight do in the library scene?",
-    "response": "It enters through a small window and illuminates the dust floating in the air.",
-    "image_url": null
+    "instruction": "According to Mr. Sharma, why had most people stopped visiting the old library?",
+    "response": "After a modern library opened across town, most people stopped visiting."
   },
   {
     "sample_num": 6,
-    "instruction": "According to Mr. Sharma, why had most people stopped visiting the old library?",
-    "response": "Because a modern library opened across town.",
-    "image_url": null
+    "instruction": "What color was the book Meera discovered that was different from the other books?",
+    "response": "A dark blue cover."
   },
   {
     "sample_num": 7,
-    "instruction": "What is the title status of the book Meera finds with a dark blue cover?",
-    "response": "It has no title on its front.",
-    "image_url": null
+    "instruction": "What did Meera find on the first page when she opened the dark blue book?",
+    "response": "A handwritten note."
   },
   {
     "sample_num": 8,
-    "instruction": "What message is written on the handwritten note found in the book?",
-    "response": "“Knowledge is the greatest treasure, but only those who ask the right questions will find it.”",
-    "image_url": null
+    "instruction": "What message did the handwritten note say?",
+    "response": "“Knowledge is the greatest treasure, but only those who ask the right questions will find it.”"
   },
   {
     "sample_num": 9,
-    "instruction": "What small drawing appears beneath the message on the note?",
-    "response": "A small drawing of a key.",
-    "image_url": null
+    "instruction": "What small drawing was beneath the message in the handwritten note?",
+    "response": "A small drawing of a key."
   },
   {
     "sample_num": 10,
-    "instruction": "What does Mr. Sharma say the library’s founder supposedly hid somewhere in the building?",
-    "response": "A special collection of books.",
-    "image_url": null
+    "instruction": "What did Mr. Sharma say the library’s founder had supposedly hidden?",
+    "response": "A special collection of books somewhere in the building."
   },
   {
     "sample_num": 11,
-    "instruction": "How does Meera spend the next few days after deciding to investigate?",
-    "response": "She visits the library after school, examines the shelves, reads old records, and searches for clues.",
-    "image_url": null
+    "instruction": "How did Meera figure out the location of a clue during one evening in the library?",
+    "response": "She noticed several history books arranged in an unusual order whose first letters formed the word “CLOCK.”"
   },
   {
     "sample_num": 12,
-    "instruction": "What word do the first letters of several history books form?",
-    "response": "“CLOCK.”",
-    "image_url": null
+    "instruction": "What object did Meera find in the corner after noticing the word “CLOCK”?",
+    "response": "An old grandfather clock."
   },
   {
     "sample_num": 13,
-    "instruction": "What object does Meera find in the corner after noticing the books arranged to form “CLOCK”?",
-    "response": "An old grandfather clock.",
-    "image_url": null
+    "instruction": "What did Meera discover behind the grandfather clock?",
+    "response": "A small wooden panel."
   },
   {
     "sample_num": 14,
-    "instruction": "What does Meera discover behind the panel after removing it from the grandfather clock?",
-    "response": "A metal key.",
-    "image_url": null
+    "instruction": "What did Meera find after removing the wooden panel behind the grandfather clock?",
+    "response": "A metal key."
   },
   {
     "sample_num": 15,
-    "instruction": "What does the metal key open?",
-    "response": "A locked cabinet beneath the librarian's desk.",
-    "image_url": null
+    "instruction": "What did the metal key open?",
+    "response": "A locked cabinet beneath the librarian's desk."
   },
   {
     "sample_num": 16,
-    "instruction": "What does the old map inside the cabinet show?",
-    "response": "A hidden staircase behind the tallest bookshelf.",
-    "image_url": null
+    "instruction": "What was inside the locked cabinet?",
+    "response": "An old map showing a hidden staircase behind the tallest bookshelf."
   },
   {
     "sample_num": 17,
-    "instruction": "What do Meera and Mr. Sharma find after moving the tallest bookshelf?",
-    "response": "A narrow staircase leading to a small underground room.",
-    "image_url": null
+    "instruction": "What did Meera and Mr. Sharma discover after moving the tallest bookshelf carefully?",
+    "response": "A narrow staircase leading to a small underground room."
   },
   {
     "sample_num": 18,
-    "instruction": "Name two types of items found in the underground room.",
-    "response": "Rare scientific discoveries and historical records.",
-    "image_url": null
+    "instruction": "What kinds of items were in the underground room besides books?",
+    "response": "It contained hundreds of books, including rare scientific discoveries, historical records, handwritten stories, and journals written by people who had lived in the town centuries earlier."
   },
   {
     "sample_num": 19,
-    "instruction": "What does the founder’s letter say about who the collection was meant to be shared with?",
-    "response": "It was meant to be shared with everyone, especially children who could not afford to buy books.",
-    "image_url": null
+    "instruction": "What did the founder’s letter explain about who the collection was meant to be shared with?",
+    "response": "It was meant to be shared with everyone, especially children who could not afford to buy books."
   },
   {
     "sample_num": 20,
-    "instruction": "Trace the full sequence of discoveries from Meera’s first entry into the old library to the reopening: include the note’s message and key drawing, the “CLOCK” clue, the grandfather clock panel, the cabinet and map, the hidden staircase, the underground room’s contents, and the founder’s purpose for the collection.",
-    "response": "Meera enters the old “Public Library,” finds a dark blue book with no title, and reads a handwritten note stating “Knowledge is the greatest treasure, but only those who ask the right questions will find it,” with a small drawing of a key. After investigating, she notices history books arranged so their first letters form “CLOCK,” finds an old grandfather clock in the corner, removes a small wooden panel behind it, and discovers a metal key. The key opens a locked cabinet beneath Mr. Sharma’s desk, where an old map shows a hidden staircase behind the tallest bookshelf. Meera and Mr. Sharma move the shelf to reveal a narrow staircase to a small underground room containing hundreds of books, including rare scientific discoveries, historical records, handwritten stories, and journals from people who lived in the town centuries earlier. The greatest surprise is a letter from the founder explaining the collection was meant to be shared with everyone, especially children who could not afford to buy books, and that education should never be limited by wealth or social position.",
-    "image_url": null
+    "instruction": "Long generation question: Describe the full sequence of discoveries and actions from Meera first noticing the hidden library building to the library becoming popular again, including the key clue word, the location of the key, what the key opened, what the map revealed, and what the founder’s letter said.",
+    "response": "Meera noticed the hidden “Public Library” building behind a row of trees, entered to find Mr. Sharma, and discovered a dark blue book with a handwritten note and a key drawing. After investigating for days, she found history books arranged so their first letters formed “CLOCK,” then located an old grandfather clock in the corner. Behind the clock was a small wooden panel; removing it revealed a metal key. The key opened a locked cabinet beneath Mr. Sharma’s desk, where an old map showed a hidden staircase behind the tallest bookshelf. Moving the shelf revealed a narrow staircase to an underground room with hundreds of books, and the founder’s letter explained the collection was meant to be shared with everyone, especially children who could not afford books. Meera restored the collection with Mr. Sharma, invited classmates, contacted volunteers, and local residents donated books, furniture, and money; within a few months the old library became popular again, with children gathering every afternoon to read, study, and discuss."
   }
 ]
